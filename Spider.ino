@@ -56,7 +56,7 @@ void moveLegs()
   /*
       VERTICAL LEGS' MOVEMENT
    */
-  for(int pos = 0; pos < 30; pos += 1)  
+  for(int pos = 0; pos < 90; pos += 1)  
   {                                  
     servoPin4.write(pos); 
     servoPin6.write(pos);
@@ -64,7 +64,7 @@ void moveLegs()
     servoPin10.write(pos);          
     delay(15);                      
   } 
-  for(int pos = 30; pos >=1; pos-=1)     
+  for(int pos = 90; pos >=1; pos-=1)     
   {                                
     servoPin4.write(pos); 
     servoPin6.write(pos);
@@ -75,12 +75,12 @@ void moveLegs()
 }
 void moveHead()
 {
-  for(int pos = 0; pos < 20; pos += 1)  
+  for(int pos = 0; pos < 120; pos += 1)  
   {                                  
     servoPin2.write(pos);         
     delay(15);                      
   } 
-  for(int pos = 20; pos >=1; pos-=1)     
+  for(int pos = 120; pos >=1; pos-=1)     
   {                                
     servoPin2.write(pos);              
     delay(15);                      
