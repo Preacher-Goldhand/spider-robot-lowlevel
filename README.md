@@ -1,4 +1,4 @@
-# SpiderRobotArduino
+# Spider robot on Arduino
 This is Spider robot on Arduino Nano. It has:
 - 4 servos for horizontal movement
 - 4 servos for vertical movement
